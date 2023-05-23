@@ -1,0 +1,47 @@
+body{
+    font-family: 'Share Tech', sans-serif;
+}
+
+header {
+    background-image: url("navpic.webp");
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #00d5ff, -1px 1px 0 #00ff99, 1px 1px 0 #fff;
+    font-size: 35px;
+  }
+
+  nav {
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 15px;
+  }
+
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #777;
+  }
+
+  .blueg1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
